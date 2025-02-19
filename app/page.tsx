@@ -1,4 +1,12 @@
 "use client";
+import { ModeToggle } from "@/components/theme-toggle";
+import { FiGithub } from "react-icons/fi";
+import { SiInstagram } from "react-icons/si";
+import { FiLinkedin } from "react-icons/fi";
+import BlurIn from "@/components/ui/blur-in";
+import { Badge } from "@/components/ui/badge";
+import { RetroGridDemo } from "@/components/retro-grid-provider";
+import Link from "next/link";
 // import ShimmerButton from "@/components/ui/shimmer-button";
 // import Image from "next/image";
 // import ShinyButton from "@/components/ui/shiny-button";
