@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "loremipsum-logo/image";
 
 export default function Home() {
   return (
@@ -6,8 +6,8 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
+          src="/loremipsum-logo.svg"
+          alt="loremipsum logo"
           width={180}
           height={38}
           priority
